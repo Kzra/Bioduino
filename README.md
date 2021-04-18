@@ -23,12 +23,13 @@ Finally upload the code and the display should turn on. It will take ~ 1 minute 
 
 ## Acknowledgements
 This project was only possible due to the fantastic documentation and examples of two libraries and the iNaturalist API.
-1. Arduino Json. This library is used throughout the code to deserialize the json output from the iNaturalist API following an HTTP request. The library allows you to stream the output directly into a json document. There is also this great tool which computes the memory requirements of a json output.
+1. Arduino Json. This library is used throughout the code to deserialize the json output from the iNaturalist API following an HTTP request. The library allows you to stream the output directly into a json document. 
 2. Wifi NiNa. This library is used to connect to the iNaturalist server and make HTTP requests. 
 3. iNaturalist API. This API is used to communicate with iNaturalist.org.
+
 In this program I make two kinds of GET request. 
-GET #1 : worldtimeapi.org/api/ip - to retrieve the current time based on IP address location. 
-GET #2: api.inaturalist.org/v1/observations - to retrieve the most recent species observations in the users area. 
+* GET #1: worldtimeapi.org/api/ip - to retrieve the current time based on IP address location. 
+* GET #2: api.inaturalist.org/v1/observations - to retrieve the most recent species observations in the users area. 
 
 ## Future Work
 If you decide to build the display, I hope you find it useful. There are a few features I haven't been able to include in version 1 of the display that I would like to incorporate in a future version. 
