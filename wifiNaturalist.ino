@@ -255,7 +255,7 @@ void loop() {
   } 
   if(currentMin % requestTime != 0){
    fetched = false;
-   Serial.println("Not requesting...");
+   //Serial.println("Not requesting...");
   }
 }
 
