@@ -1,6 +1,8 @@
 # Wifi-iNaturalist-Display
 Link an Arduino Uno Wifi Rev 2 with the iNaturalist.org API to stay updated about the species being observed in your area.
 
+Full tutorial: https://create.arduino.cc/projecthub/kzra/arduino-wifi-inaturalist-display-c22e22
+
 ## Stay updated about the nature being observed near you 
 iNaturalist is an online application in which users share observations of biodiversity in their local area. The application has over 3 million users and has been used to observe more than 320,000 species to date. 
 
