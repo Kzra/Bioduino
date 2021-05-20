@@ -2,7 +2,7 @@
 
 Full tutorial: https://create.arduino.cc/projecthub/kzra/contamination-alarm-for-pipette-tip-box-16ff1c
 
-Unfortunately I am pretty absent minded and I often forget to close my pipette tip box when I have finished pipetting. This is annoying and costly. In this past I have had to re-autoclave a pipette tip box that I left open over night.
+Unfortunately I am pretty absent minded and I sometimes forget to close my pipette tip box when I have finished pipetting. This is annoying and costly. In this past I have had to re-autoclave a pipette tip box that I left open over night.
 
 I wanted a cost effective solution to my problem. How do I stop myself forgetting to close the pipette tip box? As an Arduino enthusiast, I knew that microcontroller programming was the solution. In this project I have created a modular (i.e. detachable) circuit that can be mounted on a pipette tip box. The circuit senses if the pipette tip box is open using a force sensitive resistor (fsr) located at the back of the box. If the box is left open for over a minute the Arduino sounds an alarm until the box is closed again.
 
